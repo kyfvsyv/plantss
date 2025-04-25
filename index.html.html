@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Дізнайся, як кімнатні рослини змінюють атмосферу в домі, очищають повітря та покращують настрій. Поради для новачків, топ-5 простих рослин, правила догляду та поширені помилки." />
+  <title>Кімнатні рослини — зелена гармонія у твоєму домі</title>
+  <style>
+    :root {
+      --bg-color: #f3f7f4;
+      --text-color: #2d2d2d;
+      --header-bg: url('header.jpg') center/cover no-repeat;
+      --footer-bg: #a2c4a2;
+      --quote-bg: #eef7ee;
+      --quote-border: #a2c4a2;
+      --button-bg: #38761d;
+      --button-hover: #5b9e3e;
+      --footer-text: #1d2b1d;
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #1e1e1e;
+      --text-color: #f0f0f0;
+      --header-bg: #333;
+      --footer-bg: #2e4430;
+      --quote-bg: #2d3a2d;
+      --quote-border: #6fa36f;
+      --button-bg: #5b9e3e;
+      --button-hover: #78c157;
+      --footer-text: #d0ffd0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: var(--bg-color);
+      color: var(--text-color);
+      transition: background 0.3s, color 0.3s;
+    }
+    header {
+      background: var(--header-bg);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .theme-toggle {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: var(--button-bg);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #38761d;
+      margin-top: 2rem;
+    }
+    .quote-block {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--quote-bg);
+      border-left: 4px solid var(--quote-border);
+      padding: 1rem;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+    .quote-block blockquote {
+      font-style: italic;
+      margin: 0;
+      flex: 1 1 250px;
+    }
+    .quote-block img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .video-block {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .video-block iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 340px;
+      border: none;
+      border-radius: 12px;
+    }
+    .cta {
+      display: block;
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .cta a {
+      background: var(--button-bg);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .cta a:hover {
+      background: var(--button-hover);
+    }
+    footer {
+      background: var(--footer-bg);
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+      color: var(--footer-text);
+    }
+    footer .contacts {
+      margin-top: 0.5rem;
+    }
+    footer .contacts a {
+      color: var(--footer-text);
+      text-decoration: none;
+    }
+    footer .contacts a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      main {
+        padding: 1rem;
+      }
+      .quote-block {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .quote-block img {
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body data-theme="light">
+  <button class="theme-toggle" onclick="toggleTheme()">🌙 Темна тема</button>
+  <header>
+    <h1>Зелені друзі вдома: як кімнатні рослини змінюють життя</h1>
+  </header>
+  <main>
+    <p>Кімнатні рослини — це не лише естетика. Вони очищають повітря, знижують стрес і навіть підвищують продуктивність. У цьому блозі ти дізнаєшся, як вибрати рослини для дому, як доглядати за ними та уникати поширених помилок.</p>
+
+    <h2>1. Користь кімнатних рослин</h2>
+    <p>Кімнатні рослини очищають повітря, створюють затишок і покращують настрій. NASA довело, що спатифілум і хлорофітум ефективно фільтрують повітря.</p>
+    <div class="quote-block">
+      <blockquote>"Рослини — це жива терапія. Вони заспокоюють і дарують відчуття піклування." — Ольга Бережна, експертка з ботаніки</blockquote>
+      <img src="expert.jpg" alt="Ольга Бережна" />
+    </div>
+
+    <h2>2. Найкращі кімнатні рослини для новачків</h2>
+    <ul>
+      <li>Заміокулькас</li>
+      <li>Сансевієрія</li>
+      <li>Хлорофітум</li>
+      <li>Пеперомія</li>
+      <li>Фікус еластика</li>
+    </ul>
+
+    <h2>3. Простий догляд за рослинами</h2>
+    <p>Полив раз на кілька днів, розсіяне світло, підживлення — і твій зелений куточок буде в ідеальному стані!</p>
+
+    <h2>4. Типові помилки</h2>
+    <p>Найпоширеніші: перелив води, вибір вибагливих видів без досвіду, недотримання сезонних змін.</p>
+
+    <div class="cta">
+      <a href="https://floralife.com.ua/ua/about-plants-ua/houseplants-articles-ua/?srsltid=AfmBOopW2fh3eU18ZrX45vTeEXkIeWt0wmKfTgQPHdMvVa4Pv-m4qEjN" target="_blank">Підпишись на блог і стань експертом!</a>
+    </div>
+
+    <div class="video-block">
+      <h2>🎥 Відео: як вирощувати кімнатні рослини вдома</h2>
+      <iframe src="https://www.youtube.com/embed/unFfGHK5hss" title="Вирощуємо вдома" allowfullscreen></iframe>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Блог про кімнатні рослини. Поради, ідеї, натхнення.</p>
+    <div class="contacts">
+      <p>Контакти: <a href="mailto:drvnk.anastasiia@gmail.com">drvnk.anastasiia@gmail.com</a> | <a href="https://t.me/kyfvsyv" target="_blank">@kyfvsyv</a></p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      const currentTheme = body.getAttribute('data-theme');
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      body.setAttribute('data-theme', newTheme);
+      document.querySelector('.theme-toggle').textContent = newTheme === 'dark' ? '☀️ Світла тема' : '🌙 Темна тема';
+    }
+  </script>
+</body>
+</html>
